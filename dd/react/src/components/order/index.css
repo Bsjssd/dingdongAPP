@@ -1,0 +1,117 @@
+body{
+  background-color: #EDEDED;
+}
+.order header{
+  height: .5rem;
+  background-color: #FE8103;
+  color: aliceblue;
+  font-size: .18rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: .5rem;
+  position: sticky;
+  top: 0;
+}
+.order .nullcar{
+  padding-top: 1rem;
+  text-align: center;
+  color: rgb(197, 197, 197);
+}
+.order .headBtn{
+  position: absolute;
+  font-size: .14rem;
+  top: 0;right: .15rem;
+}
+
+
+.order .nullcar span{
+  font-size: 1.5rem;
+}
+.order .nullcar p{
+  font-size: .18rem;
+  font-weight: 800;
+}
+
+.order .list{
+  padding-bottom: 1rem;
+}
+.order .list li{
+  padding: .12rem;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .12rem;
+}
+.order .list li img{
+  width: .7rem;
+  height: .6rem;
+}
+.order .con{
+  width: 1.7rem;
+}
+.order .con p:nth-child(1){
+  color: #222;
+  font-size: .15rem;
+}
+.order .con p:nth-child(3){
+  color: red;
+  font-size: .15rem;
+  font-weight: bold;
+}
+.order .num{
+  display: flex;
+  align-items: center;
+}
+.order .num .price{
+  width: .4rem;
+  text-align: center;
+}
+.order .num .anticon{
+  color: #FE8103;
+  font-size: .2rem;
+}
+.order .totle{
+  flex: 1;
+  display: flex;
+  background-color: rgb(250, 188, 126);
+}
+.order .totle .foodnum{
+  width: 50%;
+}
+.order .totle .foodprice{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(250, 188, 126);
+  width: 50%;
+}
+.order .totle .foodprice span{
+  font-weight: 800;
+  font-size: .2rem;
+}
+.order .totBox{
+  display: flex;
+  height: .5rem;
+  text-align: center;
+  line-height: .5rem;
+  position: fixed;
+  bottom: .5rem;left: 0;right: 0;
+}
+.order .pay{
+  background-color: rgb(148, 135, 135);
+  color: #EDEDED;
+  width: 30%;
+  font-weight: 800;
+  font-size: .18rem;
+}
+.order .del{
+  padding: .05rem .28rem;
+  background-color: #FE8103;
+  color: white;
+}
+
+.order .badge{
+  position: fixed;
+  bottom: 0;
+}

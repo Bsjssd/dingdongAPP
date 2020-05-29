@@ -1,0 +1,127 @@
+body{
+  height: 100%;
+  background: rgb(245, 245, 245);
+}
+
+.my p{
+  margin-bottom: 0;
+}
+.my header{
+  height: .35rem;
+  background-color: #FE8101;
+  padding: 0 .12rem;
+}
+.my header img{
+  width: .18rem;
+  height: .18rem;
+  float: right;
+  margin-top: .08rem;
+}
+
+.my .content {
+  /* height: 1.7rem; */
+  background-color: #FE8101;
+}
+
+.my .user {
+  padding: .1rem .15rem .12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my .userLeft {
+  display: flex;
+  align-items: center;
+}
+.my .userImg img {
+  width: .6rem;
+  height: .6rem;
+  border-radius: 50%;
+  margin-right: .15rem;
+}
+.my .userName {
+  font-size: .15rem;
+  line-height: .24rem;
+  color: #fff;
+}
+.my .userVip img {
+  width: .64rem;
+  height: .17rem;
+}
+.my .sign img {
+  width: .53rem;
+  height: .6rem;
+  margin-right: .12rem;
+}
+
+.my .iconItem {
+  /* height: .61rem; */
+  background-color: #fff;
+  border-top-left-radius: .1rem;
+  border-top-right-radius: .1rem;
+  padding: .12rem;
+  display: flex;
+  justify-content: space-around;
+}
+.my .itemBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my .itemBox img {
+  width: .23rem;
+  height: .22rem;
+  margin: .05rem 0 .12rem;
+}
+.my .itemBox span {
+  font-size: .11rem;
+  color: #333333;
+}
+
+.my .banner {
+  height: 1rem;
+  margin-top: .12rem;
+}
+.my .banner img {
+  height: 1rem;
+  width: 100%;
+}
+
+.my .list {
+  margin-top: .12rem;
+}
+.my .listLi {
+  height: .45rem;
+  padding: 0 .12rem;
+  background: #fff;
+  box-sizing: border-box;
+  border-bottom: 1px solid #c7c7c7;
+  font-size: .15rem;
+  color: #6D6D6D;
+  line-height: .45rem;
+  display: flex;
+  position: relative;
+}
+.my .listLi a{
+  display: flex;
+  color: #6D6D6D;
+}
+.my .listLi img {
+  width: .44rem;
+  height: .44rem;
+  float: left;
+}
+.my .list li:nth-child(4) {
+  margin-top: .1rem;
+}
+.my .anticon-right{
+  position: absolute;
+  right: .15rem;
+  top: .15rem;
+}
+
+.my .listLi p{
+  position: absolute;
+  right: .5rem;
+  color: #c7c7c7;
+}

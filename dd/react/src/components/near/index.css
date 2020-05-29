@@ -1,0 +1,61 @@
+.near header{
+  height: .5rem;
+  background-color: #FE8103;
+  text-align: center;
+  line-height: .5rem;
+  font-size: .18rem;
+  color: white;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+.near header span{
+  position: absolute;
+  left: .12rem;
+  top: .15rem;
+}
+
+.near .info{
+  margin: .12rem;
+  background-color: #fff;
+  padding: .1rem;
+  border-radius: .05rem;
+  display: flex;
+}
+.near .info .anticon-exclamation-circle{
+  padding-right: .12rem;
+  font-size: .2rem;
+  margin-top: .03rem;
+}
+
+.near .list{
+  margin: .12rem;
+  background-color: #fff;
+  padding: .1rem;
+  border-radius: .05rem;
+  display: flex;
+  flex-direction: column;
+}
+.near .list li{
+  width: 100%;
+  padding: .05rem 0;
+  color: #FE8103;
+  border-bottom: 1px solid #ececec;
+}
+.near .list li div{
+  display: flex;
+  align-items: center;
+}
+.near .list p{
+  color: #222;
+  padding-left: .1rem;
+  font-weight: 700;
+}
+.near .list .txt2{
+  color: #999;
+  font-weight: 100;
+}
+
+.anticon-environment{
+  color: #888;
+}

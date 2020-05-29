@@ -1,0 +1,55 @@
+.finish header{
+  height: .5rem;
+  background-color: #FE8103;
+  text-align: center;
+  line-height: .5rem;
+  font-size: .18rem;
+  color: white;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.finish header span{
+  position: absolute;
+  left: .12rem;
+  top: .15rem;
+}
+
+.finish .nullcar{
+  padding-top: 1rem;
+  text-align: center;
+  color: rgb(197, 197, 197);
+}
+.finish .nullcar span{
+  font-size: 1.5rem;
+}
+.finish .nullcar p{
+  font-size: .18rem;
+  font-weight: 800;
+}
+
+.finish .list li{
+  padding: .12rem;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.finish .list li img{
+  width: .7rem;
+  height: .6rem;
+}
+.finish .con{
+  width: 1.7rem;
+}
+.finish .list li span{
+  font-size: .2rem;
+  color: rgba(29, 170, 95, 0.719);
+}
+
+.finish .list li button{
+  padding: .05rem .2rem;
+  border-radius: .05rem;
+}

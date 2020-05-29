@@ -1,0 +1,59 @@
+p{
+  margin-bottom: 0;
+}
+.coll header{
+  height: .5rem;
+  padding: 0 .12rem;
+  background-color: #FE8103;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.coll .list{
+  background-color: white;
+}
+.coll .list .listLi{
+  margin: 0 .1rem;
+  padding: .12rem 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+.coll .list .listLi:nth-last-child(1){
+  border-bottom: none;
+}
+.coll .list .box{
+  margin-right: .12rem;
+}
+.coll .list img{
+  width: .7rem;
+  height: .7rem;
+}
+.coll .list .text{
+  width: 2rem;
+  margin-left: .12rem;
+}
+.coll .list .title{
+  font-weight: 800;
+}
+.coll .list .con{
+  width: 1.8rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.coll .list button{
+  background-color: #FE8103;
+  border-radius: .05rem;
+  padding: .05rem;
+  color: white;
+}
+
+.coll .ant-result-title,.coll .null .anticon-dropbox{
+  color: #ccc;
+}

@@ -1,0 +1,107 @@
+.shopList header{
+  height: .5rem;
+  background-color: #FE8103;
+  text-align: center;
+  line-height: .5rem;
+  font-size: .18rem;
+  color: white;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.shopList header span{
+  position: absolute;
+  left: .12rem;
+  top: .15rem;
+}
+
+
+.shopList .shopBox {
+  padding: .09rem .12rem;
+  background: #fff;
+}
+
+.shopList .shop_box {
+  display: flex;
+  padding: .1rem 0;
+  border-top: 1px solid #D9D9D9;
+}
+
+.shopList .shopBox .shop_box:nth-child(1) {
+  border-top: none;
+}
+
+.shopList .shopImg img {
+  width: .6rem;
+  height: .6rem;
+  margin-right: .08rem;
+  border-radius: .05rem;
+}
+.shopList .shopCon p{
+  margin: 0;
+}
+.shopList .shopCon {
+  border-left: 1px solid #D9D9D9;
+  color: #333;
+  padding-left: .08rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shopList .shopTit {
+  font-size: .15rem;
+  line-height: .15rem;
+}
+
+.shopList .shopXx{
+  padding-right: .1rem;
+}
+
+.shopList .shopCom {
+  font-size: .11rem;
+  color: #CCCCCC;
+  display: flex;
+  line-height: .11rem;
+}
+
+.shopList .shopPrice {
+  font-size: .11rem;
+  line-height: .11rem;
+  display: flex;
+}
+
+.shopList .shopPrice span {
+  margin-right: .08rem;
+}
+
+.shopList .shopFree {
+  font-size: .12rem;
+  line-height: .12rem;
+  display: flex;
+}
+
+.shopList .shopFree span {
+  font-size: .11rem;
+  line-height: .11rem;
+  border: 1px solid #5DD362;
+  border-radius: .02rem;
+  color: #5DD362;
+}
+
+
+.site-back-top-basic {
+  color: rgba(64, 64, 64, 0.6);
+}
+.ant-back-top-content{
+  background-color: rgba(0,0,0, 0.2);
+}
+.ant-back-top{
+  position: fixed;
+  bottom: .6rem;
+  right: .13rem;
+}
+.shopList .ant-rate-disabled{
+  font-size: .12rem;
+}

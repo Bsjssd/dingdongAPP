@@ -1,0 +1,59 @@
+.adds header{
+  height: .5rem;
+  padding: 0 .12rem;
+  background-color: #FE8103;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.adds header p{
+  font-size: .18rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: .5rem;
+}
+.adds header span{
+  left: .12rem;
+  top: .15rem;
+}
+
+
+
+.adds .list{
+  padding: .1rem;
+  background-color: #fff;
+}
+.adds .list li{
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+  padding: .1rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.adds .nameBox{
+  font-size: .16rem;
+  display: flex;
+  width: 2.5rem;
+}
+.adds .txt:nth-child(1){
+  padding-right: .1rem;
+  color: #222;
+}
+.adds .path{
+  width: 2.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.adds .btn{
+  background-color: #FE8103;
+  color: #fff;
+  padding: 0 .1rem;
+  height: .3rem;
+  line-height: .3rem;
+  border-radius: .05rem;
+}
